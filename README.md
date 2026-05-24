@@ -1,10 +1,10 @@
-# 🎓 Smart Class Bot
+#  Smart Class Bot
 
 A Telegram bot for managing teacher attendance and notifying students — powered by AI-generated messages via OpenAI.
 
 ---
 
-## ✅ Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -18,7 +18,7 @@ A Telegram bot for managing teacher attendance and notifying students — powere
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 
@@ -55,8 +55,8 @@ Edit `.env`:
 
 ```env
 BOT_TOKEN=your_telegram_bot_token_here
-ADMIN_IDS=123456789          # Your Telegram user ID (comma-separate for multiple admins)
-OPENAI_API_KEY=sk-...        # Your OpenAI key (get one at platform.openai.com)
+ADMIN_IDS=123456789          
+OPENAI_API_KEY=sk-...        
 ```
 
 ### 6. Install dependencies
@@ -81,9 +81,9 @@ Open Telegram, find your bot, and send `/start` ✅
 
 ---
 
-## 👤 User Roles
+##  User Roles
 
-### 🔑 Admin
+###  Admin
 Must be listed in `ADMIN_IDS` in `.env`.
 
 | Command | Description |
@@ -97,7 +97,7 @@ Must be listed in `ADMIN_IDS` in `.env`.
 | `/attendance` | Today's attendance summary |
 | `/logs` | Recent bot activity |
 
-### 👩‍🏫 Teacher
+###  Teacher
 Must be registered by admin via `/addteacher`.
 
 | Command | Description |
@@ -120,7 +120,7 @@ Must be registered by admin via `/addteacher`.
 
 ---
 
-## 🏫 Setup Workflow (Step by Step)
+##  Setup Workflow (Step by Step)
 
 ```
 1. Admin starts bot and runs /addteacher 111222333 "Dr. Ahmed" "Math"
@@ -128,7 +128,7 @@ Must be registered by admin via `/addteacher`.
    (Add the bot to the group first, then use that group's chat_id)
 3. Teacher opens bot and sends /coming  →  attendance logged
 4. Teacher sends /notcoming exam conflict  →  AI message sent to all groups
-5. Students in the group receive: "📢 Dr. Ahmed (Math) will not be attending..."
+5. Students in the group receive: " Dr. Michael (Math) will not be attending..."
 6. Students can check /today to see all updates
 ```
 
@@ -174,7 +174,7 @@ smart-class-bot/
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Daily 8 AM reminder for teachers to mark attendance
 - [ ] Weekly attendance report PDF export
