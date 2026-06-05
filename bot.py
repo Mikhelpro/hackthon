@@ -7,6 +7,17 @@ from handlers.teacher import router as teacher_router
 from handlers.admin import router as admin_router
 from handlers.student import router as student_router
 
+/*
+.---. .-.     .--.   .----. .----..-. .-. .----.  .---. .-..----..-.  .-.
+/  _}| |    / {} \ { {  { {__  |  | |/  {}  \{_   _}| || {_   \ \/ / 
+\     }| --./  /\  \.-._} }.-._} }| |\  |\      /  | |  | || |     }  {  
+ ---' ----'-'  -'----' ----' -' -' ----'   -'  -'-'     --'  
+.----.  .----.  .---.                                                     
+| {}  }/  {}  \{_   _}                                                    
+| {}  }\      /  | |                                                      
+----'  ----'   -'
+*/
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
