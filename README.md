@@ -1,4 +1,4 @@
-#  Smart Class Bot
+#  Classnotify Bot
 
 A Telegram bot for managing teacher attendance and notifying students — powered by AI-generated messages via OpenAI.
 
